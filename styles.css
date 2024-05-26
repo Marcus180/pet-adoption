@@ -1,8 +1,8 @@
 body, html  {
     margin: 0;
     padding: 0;
-    background-color: #001D37;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #666666;
 }
 
 body    {
@@ -11,10 +11,18 @@ body    {
 
 /** Wrapper **/
 
+.top-section-wrapper    {
+    overflow: hidden;
+    background-color: #001D37;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
 /* Top Section */
 
 .actual-top-content    {
-    background-color: #001D37;
+    z-index: 2;
+    position: relative;
     padding-left: 16px;
     padding-right: 16px;
     overflow: hidden;
@@ -27,11 +35,6 @@ body    {
     padding-bottom: 139px;
     max-width: 1066px;
     margin: 0 auto;
-    position: relative;
-}
-
-.actual-top-content {
-    z-index: 2;
     position: relative;
 }
 
@@ -62,7 +65,7 @@ body    {
     color: white;
     text-decoration: none;
     padding: 13px 25px;
-    border-radius: 1000px;
+    border-radius: 15px;
 }
 
 .our-btn--outline   {
@@ -98,7 +101,7 @@ body    {
     margin-bottom: 20px;
 }
 
-/* Background Graphic */
+/* Background Graphics */
 .circle {
     width: 617px;
     height: 617px;
@@ -111,10 +114,24 @@ body    {
     right: -395px;
 }
 
+.circle-two {
+    width: 617px;
+    height: 617px;
+    background: #6879ff;
+    opacity: .85;
+    border-radius: 50%;
+    filter: blur(150px);
+    position: absolute;
+    top: -365px;
+    left: -123px;
+}
+
+
 /* The Meet Our Friends section */
 
 .page-section   {
-    background-color: gray;
+    background-color: #ffffff;
+    color: #666666;
     padding: 100px 16px;
 }
 
@@ -130,16 +147,16 @@ body    {
 }
 
 .pet-filter {
-    color: #ffffff;
+    color: #666666;
     font-size: 1.375rem;
 }
 
 .pet-filter button {
-    background-color: transparent;
+    background-color: #001D37;
     border: none;
     font-family: "Source Sans 3", sans-serif;
     font-size: 1.375rem;
-    color: #ffffff;
+    color: #666666;
 }
 
 .list-of-pets   {
